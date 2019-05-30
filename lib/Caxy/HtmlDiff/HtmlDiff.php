@@ -47,6 +47,16 @@ class HtmlDiff extends AbstractDiff
 
         return $diff;
     }
+    
+    /**
+     * Prepare.
+     *
+     * @return void
+     */
+    protected function prepare()
+    {
+        // do nothing.
+    }
 
     /**
      * @param $bool
